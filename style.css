@@ -1,0 +1,65 @@
+
+main menu, main fieldset, main footer {
+    margin: 0 auto;
+} 
+
+menu {
+background: #AAB;
+padding: 0;
+margin: 0;
+width:200px;
+text-align: center;
+border-radius: 20px 20px 0 0 ;
+}
+
+
+span a {
+display: inline-block;
+width: 70px;
+background: #77B;
+border-radius: 10px;
+margin: 5px;
+padding: 5px;
+}
+
+fieldset {
+width: 230px;
+text-align: center;
+padding: 0px;
+border-radius: 10px;
+margin-bottom: 5px;
+}
+
+legend {
+color: blue;
+font-size: 20px;
+font-weight: bold;
+font-family: "Times New Roman", Times, serif, arial;
+}
+
+input[class="bot"] { 
+width: 60px;
+height: 50px;
+margin: 5px;
+font-size: 30px;
+font-weight: bold;
+border-radius: 15px;
+color:#77B
+}
+
+input[value="X"] {
+background: #B55;  
+}
+
+input[value="O"] {
+background: #5B5;
+}
+
+footer {
+display: none;
+background: #AAB;
+padding: 0;
+width: 202px;
+border-radius: 0 0 20px 20px;
+text-align: center;
+}
